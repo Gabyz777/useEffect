@@ -1,0 +1,73 @@
+.corpo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0a0a0a;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.terminal {
+  background-color: #1a1a1a;
+  padding: 40px;
+  border-radius: 10px;
+  border: 1px solid #00ff00;
+  box-shadow: 0 0 20px rgba(0, 255, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+}
+
+.titulo {
+  color: #00ff00;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.status {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.erro {
+  color: #ff4d4d;
+  font-weight: bold;
+}
+
+.inputSenha {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  background-color: #333;
+  border: 1px solid #555;
+  color: #00ff00;
+  border-radius: 4px;
+  outline: none;
+}
+
+.inputSenha:focus {
+  border-color: #00ff00;
+}
+
+.botao {
+  width: 100%;
+  padding: 12px;
+  background-color: #00ff00;
+  color: #000;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.botao:disabled {
+  background-color: #444;
+  color: #888;
+  cursor: not-allowed;
+}
+
+.aviso {
+  color: #ff4d4d;
+  margin-top: 15px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
