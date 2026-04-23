@@ -23,7 +23,7 @@ export function Desafio() {
     if (tentativas >= 3) {
       setBloqueado(true)
       setSenha("")
-      alert("SISTEMA BLOQUEADO: Tentativas excessivas!!")
+      alert("SISTEMA BLOQUEADO: Tentativas excessivas!")
     }
   }, [tentativas])
 
